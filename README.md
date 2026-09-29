@@ -88,6 +88,20 @@ automações/
 
 ---
 
-Arquivos presentes:
+## Automações disponíveis
 
-- `iniciarProgramacao.py` - uma automação que abre o GitHub, GitHub Desktop e Spotify
+Atualmente, estão disponíveis as seguintes automações:
+
+* `iniciarProgramacao.py` — automatiza a abertura do GitHub, GitHub Desktop e Spotify.
+
+## Personalização
+
+O código-fonte das automações está disponível neste repositório. Caso queira adaptar alguma automação às suas necessidades, você pode baixar o projeto, modificar os arquivos `.py` localmente e adicionar ou alterar funcionalidades.
+
+Depois de realizar as alterações, basta gerar novamente o executável utilizando o **PyInstaller**:
+
+```bash
+pyinstaller --onefile nome_do_arquivo.py
+```
+
+O novo `.exe` será gerado na pasta `dist/`.

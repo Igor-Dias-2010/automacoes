@@ -1,5 +1,4 @@
 import pyautogui as pag
-import time
 
 pag.PAUSE = 1.5
 pag.press("win")
